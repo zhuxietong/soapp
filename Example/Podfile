@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'soapp_Example' do
+  pod 'soapp', :path => '../'
+
+  target 'soapp_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
