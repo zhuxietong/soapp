@@ -1,0 +1,70 @@
+.div-link:hover {
+    cursor: pointer;
+}
+
+ul.item-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.item-list > li {
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    background: #fff;
+    cursor: pointer;
+}
+
+ul.item-list > li:before,
+ul.item-list > li:after {
+    content: " ";
+    display: table;
+}
+
+ul.item-list > li:after {
+    clear: both;
+}
+
+ul.item-list .item-img {
+    float: left;
+}
+
+ul.item-list .item-img img {
+    width: 50px;
+    height: 50px;
+    object-fit:cover;
+}
+
+ul.item-list .item-info {
+    margin-left: 60px;
+}
+
+ul.item-list .item-title {
+    font-weight: 600;
+    text-decoration: none;
+    color: #666;
+    font-size: 1em;
+}
+
+ul.item-list .item-description {
+    display: block;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 0.8em;
+}
+
+/*.product-list-in-box > .item {*/
+/*-webkit-box-shadow: none;*/
+/*box-shadow: none;*/
+/*border-radius: 0;*/
+/*border-bottom: 1px solid #f4f4f4;*/
+/*}*/
+/*.product-list-in-box > .item:last-of-type {*/
+/*border-bottom-width: 0;*/
+/*}*/
+/**/
+

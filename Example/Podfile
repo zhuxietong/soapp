@@ -2,10 +2,9 @@ use_frameworks!
 
 target 'soapp_Example' do
   pod 'soapp', :path => '../'
+#  pod 'soapp', :git => 'https://git.oschina.net/cocoa.me/soapp.git' # 指定路径
 
-  target 'soapp_Tests' do
-    inherit! :search_paths
-
-    
-  end
+#  target 'soapp_Tests' do
+#    inherit! :search_paths
+#  end
 end

@@ -1,0 +1,61 @@
+PODS:
+  - Alamofire (4.5.0)
+  - Eelay (1.0.3)
+  - JoLoading (0.1.2):
+    - Eelay
+  - Kingfisher (3.10.3)
+  - MJRefresh (3.1.12)
+  - PINCache (3.0.1-beta.5):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.5)
+    - PINCache/Core (= 3.0.1-beta.5)
+  - PINCache/Arc-exception-safe (3.0.1-beta.5):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.5):
+    - PINOperation (= 1.0.3)
+  - PINOperation (1.0.3)
+  - PINRemoteImage/Core (3.0.0-beta.11):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.11):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.11):
+    - PINCache (= 3.0.1-beta.5)
+    - PINRemoteImage/Core
+  - soapp (0.1.0):
+    - Alamofire (~> 4.3)
+    - JoLoading
+    - Kingfisher (~> 3.0)
+    - MJRefresh
+    - STRegex (~> 0.4.0)
+    - Texture
+  - STRegex (0.4.3)
+  - Texture (2.3.4):
+    - Texture/PINRemoteImage (= 2.3.4)
+  - Texture/Core (2.3.4)
+  - Texture/PINRemoteImage (2.3.4):
+    - PINRemoteImage/iOS (= 3.0.0-beta.11)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+
+DEPENDENCIES:
+  - soapp (from `../`)
+
+EXTERNAL SOURCES:
+  soapp:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  Eelay: 7ff06495d2e700f560adfb805085316bdfcd0e79
+  JoLoading: c56ae43bfd742e774f2b98c71c9996753b865f08
+  Kingfisher: a0ac82dc5bcf0388dd74b294cf2cc13730c63436
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  PINCache: 98e7b1ef782824ad231ade51987c218b758c30d8
+  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
+  PINRemoteImage: d71988f11914a050d6d4cf51efc4ad1de8c0a9d8
+  soapp: 836f625a89c0b05a7ffdd2b549231e701b49df62
+  STRegex: c7decbba8601717274774a3f341c4807a327a6d0
+  Texture: 8cf0872fe33328c20d7e6c1fcbf1f23a82162f2f
+
+PODFILE CHECKSUM: 06954588d46b64f7d9c1be8bb78d37801e655aca
+
+COCOAPODS: 1.2.1

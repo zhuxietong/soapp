@@ -27,10 +27,9 @@ TODO: Add long description of the pod here.
   s.author           = { 'zhuxietong' => 'zhuxietong@me.com' }
   s.source           = { :git => 'https://github.com/zhuxietong/soapp.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.ios.deployment_target = '9.0'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'soapp/Classes/**/*'
+  s.source_files = 'soapp/Classes/**/*','soapp/Classes/**/**/*','soapp/Classes/**/**/**/*','soapp/Classes/**/**/**/**/*','soapp/Classes/**/**/**/**/**/*'
   
   # s.resource_bundles = {
   #   'soapp' => ['soapp/Assets/*.png']
@@ -39,4 +38,11 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'JoLoading'
+  s.dependency 'Kingfisher', '~> 3.0'
+  s.dependency 'Alamofire', '~> 4.3'
+  s.dependency 'STRegex', '~> 0.4.0'
+  s.dependency 'MJRefresh'
+  s.dependency 'Texture'
+
 end
